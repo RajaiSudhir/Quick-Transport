@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="form_wrapper">
+  <div class="form_container">
+    <div class="title_container">
+      <h2>Registration Form</h2>
+    </div>
+    <div class="row clearfix">
+      <div class="">
+        <form action="register.php" method="post">
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+            <input type="password" minlength="6" maxlength="28" name="pass" placeholder="Password" required />
+          </div>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+            <input type="password" minlength="6" maxlength="28" name="repass" placeholder="Re-type Password" required />
+          </div>
+          <div class="row clearfix">
+            <div class="col_half">
+              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                <input type="text" name="fname" placeholder="First Name" />
+              </div>
+            </div>
+            <div class="col_half">
+              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                <input type="text" name="lname" placeholder="Last Name" required />
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="input_field"> <span><i aria-hidden="true" class="fa fa-briefcase"></i></span>
+            <input type="text" name="bname" placeholder="Enter your Business Name" required />
+          </div>
+	
+		  <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+            <input type="number" name="adhar" placeholder="Enter your adhar card number" minlength="12" maxlength="12" size="12" required pattern="[0-9]{12}"/>
+          </div>
+
+		  <div class="input_field"> <span><i aria-hidden="true" class="fa fa-book"></i></span>
+            <input type="text" name="gst" placeholder="Enter your GST Number" minlength="14" maxlength="15" size="15" required />
+          </div>		
+		  
+		  <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
+            <input type="number" name="pno" placeholder="Enter your phone number" minlength="10" maxlength="10" size="10" required pattern="[0-9]{10}"/> 
+          </div>		
+		
+            	<div class="input_field radio_option">
+              <input type="radio" name="gender" value="male" id="rd1">
+              <label for="rd1">Male</label>
+              <input type="radio" value="female" name="gender" id="rd2">
+              <label for="rd2">Female</label>
+              </div>
+              <div class="input_field select_option">
+                <select name="state">
+                  <option>Select a state</option>
+                  <option>Gujarat</option>
+                  <option>Maharashtra</option>
+				          <option>Banglore</option>
+				          <option>Rajasthan</option>
+				          <option>Madhya Pradesh</option>
+				          <option>Uttar Pradesh</option>
+                </select>
+                <div class="select_arrow"></div>
+              </div>
+              <div class="input_field select_option">
+                <select name="security" required>
+                  <option>Select security question</option>
+                  <option>Favourite color?</option>
+                  <option>What is your favourite book?</option>
+				          <option>What is your pet name?</option>
+                </select>
+                <div class="select_arrow"></div>
+              </div>
+              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-font"></i></span>
+                <input type="text" name="sa" placeholder="Your Answer" required />
+              </div>
+            <div class="input_field checkbox_option">
+            	<input type="checkbox" id="cb1" required>
+    			<label for="cb1">I agree with terms and conditions</label>
+            </div>
+            <div class="input_field checkbox_option">
+            	<input type="checkbox" id="cb2">
+    			<label for="cb2">I want to receive the newsletter</label>
+            </div>
+          <input class="button" type="submit" value="Register" />
+		  <a href="index.php"><input class="button" type="button" value="Back" /></a>
+		  <label> Already Registered <a href="login/index.php">Click here </a>to sgin in</label>
+        </form
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <p class="credit">Developed by <a href="http://www.designtheway.com" target="_blank">Design the way</a></p> 
+<!-- partial -->
+  <script src='https://use.fontawesome.com/4ecc3dbb0b.js'></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.profile-info, .about-me {
+    flex-basis: 50%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.profile-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.profile-info h2, .profile-info p {
+    text-align: center;
+}
+
+.about-me p {
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>User Profile</h1>
+    </header>
+
+    <main>
+        <section class="profile-info">
+            <img src="avatar.jpg" alt="Profile Picture">
+            <h2>John Doe</h2>
+            <p>Software Engineer</p>
+            <ul>
+                <li>Location: New York City</li>
+                <li>Website: <a href="#">johndoe.com</a></li>
+            </ul>
+        </section>
+
+        <section class="about-me">
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur, magna sit amet molestie egestas, odio lectus tempor lacus, vel posuere nibh ipsum vitae lacus. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 John Doe</p>
+    </footer>
+</body>
+</html>
