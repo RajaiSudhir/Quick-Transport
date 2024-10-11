@@ -1,6 +1,4 @@
-Thanks for downloading this template!
-
-Template Name: Logis
-Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Project Name: Quick Transport
+Creation Time: 6th sem project of graduation
+About Project: A medium where people can rent vehicles for their goods (mainly trucks or heavy vehicles) and truck owners can also find goods to keep their business progressing.
+Author: Sudhir Rajai
